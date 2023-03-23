@@ -1,5 +1,10 @@
 package cajas;
 
+/**
+ *
+ * @author Angel P.
+ */
+
 public class Caja {
     
     // ATRIBUTOS
