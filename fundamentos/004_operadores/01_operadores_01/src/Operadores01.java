@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Sección 4: Fundamentos java: operadores en java
  *
- * 23. Ejercicio: operadores sritméticos en java 
+ * 23. Ejercicio: operadores aritméticos en java 
  * 24. Rectángulo
  *
  * @author Angel P.
@@ -32,7 +32,7 @@ public class Operadores01 {
         System.out.println("Multiplicación entre a y b: " + mult);
 
         /*
-        divisipon
+        división
         Al ser entre dos variables de tipo entero, entonces el resultado 
         también lo será:
          */

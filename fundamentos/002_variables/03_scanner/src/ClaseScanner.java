@@ -41,7 +41,7 @@ public class ClaseScanner {
         comida = consola.nextLine();
         System.out.println("¡Pronto tendremos " + comida + " en nuestro menú!");
         
-        System.out.println("Ecribe tu animal favorito: ");
+        System.out.println("Escribe tu animal favorito: ");
         animal = consola.nextLine();
         System.out.println("¡Pronto tendremos un " + animal + " en el ZOO!");
     }

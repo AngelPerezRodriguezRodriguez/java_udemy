@@ -7,14 +7,14 @@
  * 8. Inferencia de tipos en java
  * 9. Ejercicio: reglas para definir una variable en java
  * 
- * Una varialbe nos va a permitir alamacenar información. Esta información van a
+ * Una variable nos va a permitir almacenar información. Esta información van a
  * ser los datos que vamos a procesar con nuestro programa, así que estos datos
  * van a variar según la información que estemos recibiendo por parte del
  * usuario o del tipo de información que estemos procesando.
  *
- * Una variable tiene un "identificador" y va al macenar entones un valor, pero
+ * Una variable tiene un "identificador" y va almacenar entones un valor, pero
  * este valor que va a almacenar puede cambiar al pasar el tiempo. De ahí su
- * nobre de variable, debido a que el valor que almacena puede modificarse al
+ * nombre de variable, debido a que el valor que almacena puede modificarse al
  * pasar el tiempo.
  *
  * @author Angel P.
@@ -83,20 +83,20 @@ public class Variables {
         /*
         PALABRAS RESERVADAS
         Las palabras reservadas son identificadores pero, como su nombre lo
-        indica, etán reservadas y no se pueden usar como indetificadores por el
+        indica, están reservadas y no se pueden usar como identificadores por el
         usuario.
       
         
         DEFINIR PALABRAS RESERVADAS:  
         
-        1. El primer caracter puede ser cualquier letra del alfabeto. 
+        1. El primer carácter puede ser cualquier letra del alfabeto. 
         Por convención debe ser en minúscula
         
         2. De contener más de una palabra, las demás deben de comenzar con 
         mayúscula
         
         3. No podemos utilizar números ni caracteres especiales como primer 
-        caracter. Sólo podemos usar ciertos caracteres especiales como: 
+        carácter. Sólo podemos usar ciertos caracteres especiales como: 
         "_" "$" ...
         
         4. No es recomendable utilizar acentos
@@ -104,7 +104,7 @@ public class Variables {
         
         RESTRICCIONES DE VARIABLES:  
  
-        1. Una variable que fue definada dentro de un método, en este caso 
+        1. Una variable que fue definida dentro de un método, en este caso 
         dentro del método "main", no puede ser utilizada fuera de este método. 
         A esto se le denomina alcance de una variable
          */

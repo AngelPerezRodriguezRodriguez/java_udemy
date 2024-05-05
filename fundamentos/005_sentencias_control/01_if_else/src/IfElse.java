@@ -24,7 +24,7 @@ public class IfElse {
             System.out.println("La condición es verdadera...");
             System.out.println("Nueva linea de código");
         } else {
-            System.out.println("La condiciónes falsa...");
+            System.out.println("La condiciones falsa...");
         }
 
         //EJEMPLO dos
@@ -33,7 +33,7 @@ public class IfElse {
 
         /*
         Con "else if" cuando se satisface la condición: la sentencia de control
-        se detiene, es decir, ya no se evaluan las posteriores condiciones; caso
+        se detiene, es decir, ya no se evalúan las posteriores condiciones; caso
         en el que ocurre todo lo contrario al utilizar solamente sentencias "if"
          */
         if (numero == 1) {
@@ -66,7 +66,7 @@ public class IfElse {
         } else if (mes == 9 || mes == 10 || mes == 11) {
             mesTexto = "nos encontramos en otoño";
         }//else {
-//        mesTexto = "no has ingresado un mes válido";
+//          mesTexto = "no has ingresado un mes válido";
 //      }
         System.out.println("Estación del año: " + mesTexto);
     }

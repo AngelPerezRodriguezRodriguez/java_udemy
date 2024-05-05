@@ -51,17 +51,17 @@ public class Operadores02 {
         System.out.println("e: " + e);
 
         /*       
-        preincremento
+        pre-incremento
         Primero se incrementa la variable y luego se ocupa su valor.
         
-        El primer uso que le estamos dando a la varible preincrementada "f" es 
+        El primer uso que le estamos dando a la variable pre-incrementada "f" es 
         cuando se asigna a la variable "g". 
         
-        Una vez que la variable "f" se ha preincrementado, entonces la variable
-        "f" tamién se modifica
+        Una vez que la variable "f" se ha pre-incrementado, entonces la variable
+        "f" también se modifica
          */
         int f = 20;
-        System.out.println("f <sin preincremento>: " + f);
+        System.out.println("f <sin pre-incremento>: " + f);
         int g = ++f;
         System.out.println("f: " + f);
         System.out.println("g: " + g);
@@ -69,24 +69,24 @@ public class Operadores02 {
         System.out.println("g: " + g);
 
         /*
-        postincremento
+        post-incremento
         Primero se utiliza la variable y luego se incrementa.
         
-        El primer uso que le estamos dando a la varible preincrementada "h" es 
+        El primer uso que le estamos dando a la variable pre-incrementada "h" es 
         cuando se asigna a la variable "i". Por lo tanto, el valor de la
         variable "i" va a ser el entero sin el incremento.
         
-        Los usos posteriores tanto de la variale "h" como "i" van a ser con el
+        Los usos posteriores tanto de la variable "h" como "i" van a ser con el
         valor del entero pero con el incremento
          */
         int h = 30;
-        System.out.println("h <sin postincremento>: " + h);
+        System.out.println("h <sin post-incremento>: " + h);
         int i = h++;
         System.out.println("h: " + h);
         /*
         Solicitar la variable "h" en este punto, es decir en la linea de código
         87, implica que ya se han leído la linea 86 de código. Por lo tanto, ya 
-        se ha hecho el primer uso de la variable con postincremento al ser
+        se ha hecho el primer uso de la variable con post-incremento al ser
         asignada a la variable "i". 
         
         Sólo podemos visualizar el entero sin el incremento cuando solicitemos,
@@ -97,22 +97,22 @@ public class Operadores02 {
         System.out.println("i: " + i);
 
         int j = 40;
-        System.out.println("j <sin postincremento>: " + j);
+        System.out.println("j <sin post-incremento>: " + j);
         j++;
         System.out.println("j = " + j);
 
-        //predecremento
+        //pre-decremento
         int k = 50;
-        System.out.println("k <sin predrecremento>: " + k);
+        System.out.println("k <sin pred-recremento>: " + k);
         int l = --k;
         System.out.println("k: " + k);
         System.out.println("l: " + l);
         System.out.println("k: " + k);
         System.out.println("l: " + l);
 
-        //postdecremento
+        //post-decremento
         int m = 60;
-        System.out.println("m <sin postdecremento> " + m);
+        System.out.println("m <sin post-decremento> " + m);
         int n = m--;
         System.out.println("m: " + m);
         System.out.println("n: " + n);
@@ -120,7 +120,7 @@ public class Operadores02 {
         System.out.println("n: " + n);
 
         int o = 70;
-        System.out.println("o sin postdecremento: " + o);
+        System.out.println("o sin post-decremento: " + o);
         o--;
         System.out.println("o: " + o);
 

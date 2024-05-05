@@ -9,8 +9,8 @@ public class PalabraThis {
          * new String("Sebastian")
          * 
          * Podemos asegurarnos que estamos creando un objeto String
-         * en una hubicación de memoría ÚNICA, pero no es lo más común.
-         * new String("Juan") y new String("Juan") apuntan a diferentes refencias
+         * en una ubicación de memoria ÚNICA, pero no es lo más común.
+         * new String("Juan") y new String("Juan") apuntan a diferentes referencias
          * en memoria.
          * 
          * "Rodríguez"
@@ -18,11 +18,12 @@ public class PalabraThis {
          * Java utiliza un espacio de memoria que se conoce como Pull String, este
          * espacio es memoria es un conjunto de cadenas que se administran con el
          * objetivo de ocupar la menor cantidad de información en la memoria.
-         * "Juan" y "Juan" apuntan a la misma referencia en memoria.
+         * "Juan" y "Juan" apuntan a la misma referencia en memoria del objeto 
+         * que sea ha creado en Pull String.
          */
 
         System.out.printf("\nPersona desde main:\n%s\n", personaUno);
-        // Paquete, clase y posción de memoria
+        // Paquete, clase y posición de memoria
 
         System.out.println(personaUno.nombre);
         System.out.println(personaUno.apellido);
@@ -67,6 +68,7 @@ class Persona {
         // es decir, el momento en el que se manda a llamar el constructor de la clase.
 
         new Imprimir().imprimir(this);
+        // No es necesario asignar la referencia de memoria a una variable.
     }
 }
 
@@ -76,7 +78,7 @@ class Imprimir {
         super();
     }
 
-    void imprimir(Persona persona) {
+    public void imprimir(Persona persona) {
         System.out.printf("\nPersona desde imprimir:\n%s\n", persona);
 
         System.out.printf("\nthis desde imprimir:\n%s\n", this);

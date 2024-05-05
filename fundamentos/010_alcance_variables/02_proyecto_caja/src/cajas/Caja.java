@@ -12,7 +12,7 @@ public class Caja {
     int alto;
     int profundo;
 
-    // CONSTRCUTORES
+    // CONSTRUCTORES
     public Caja() {
         System.out.println("Uso de constructor vacío...");
     }

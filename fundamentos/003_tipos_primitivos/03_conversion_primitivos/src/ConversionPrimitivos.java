@@ -19,8 +19,8 @@ public class ConversionPrimitivos {
         1. Usamos la clase "Integer"
         
         2. Usamos su método "parseInt()" que se encuentra definido dentro de la
-        clase "Integer". Eset método recibe el valor de una cadena y lo 
-        convierte a un tipo entero, para posteriormente asigarlo al valor de la
+        clase "Integer". Este método recibe el valor de una cadena y lo 
+        convierte a un tipo entero, para posteriormente asignarlo al valor de la
         variable
          */
         int edad = Integer.parseInt("22");
@@ -55,12 +55,12 @@ public class ConversionPrimitivos {
         String palabra = "Rosa";
         System.out.println("palabra: " + palabra);
         /* 
-        A nuestra cadena le podemos solictiar un caracter utilizando el método
+        A nuestra cadena le podemos solicitar un carácter utilizando el método
         "charAt". Sobre una cadena podemos utilizar varios métodos disponibles
         porque no es un dato primitivo sino referenciado o tipo object; 
-        especificamente, el dato referenciado "String".
+        específicamente, el dato referenciado "String".
         
-        El método "charAt" nos permitirá obtener el caracter del índice 
+        El método "charAt" nos permitirá obtener el carácter del índice 
         existente que le proporcionemos. 
         
         SOLO los datos de tipo "String" contienen este método      

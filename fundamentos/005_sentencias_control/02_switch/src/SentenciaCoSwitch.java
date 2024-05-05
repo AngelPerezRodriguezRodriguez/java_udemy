@@ -16,7 +16,7 @@ public class SentenciaCoSwitch {
         /*
         Las comprobaciones con EXPRESIONES numéricas o String
         
-        No es necesario agregar el úlitmo break, pero se hace por buena práctica
+        No es necesario agregar el último break, pero se hace por buena práctica
         
         EJEMPLO uno
          */
@@ -28,7 +28,7 @@ public class SentenciaCoSwitch {
                 numeroTexto = "número uno";
                 /*
                 En caso de que se cumpla el caso, el uso de "break" va a impedir
-                que se evualúen los siguientes casos.
+                que se evalúen los siguientes casos.
                  */
                 break;
             case 2:

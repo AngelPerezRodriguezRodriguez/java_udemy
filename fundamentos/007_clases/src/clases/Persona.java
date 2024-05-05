@@ -20,7 +20,7 @@ public class Persona {
         
         /* 
         Las variables "nombre" y "apellido" no importa que no estén definidas 
-        dentro de nuestro método "desplegar Informacion".
+        dentro de nuestro método "desplegarInformacion".
         
         Esto se debe a que "nombre" y "apellido" son atributos de nuestra clase 
         "Persona". Por lo tanto, podemos ocupar estos atributos desde cualquier

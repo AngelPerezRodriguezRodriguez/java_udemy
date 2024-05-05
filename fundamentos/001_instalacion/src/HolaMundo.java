@@ -1,6 +1,6 @@
 
 /**
- * Sección 1: Fundamentos de java: instalación java 15 y apache netbeans
+ * Sección 1: Fundamentos de java: instalación java 15 y apache NetBeans
  * 
  * 5.  Saludar
  * 

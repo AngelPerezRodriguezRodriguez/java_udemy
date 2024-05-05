@@ -7,13 +7,13 @@ package operaciones;
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
-        // Los meotos 'static' sólo puede mandar a llamar otros métodos 'static'
+        // Los métodos 'static' sólo puede mandar a llamar otros métodos 'static'
 
         int a = 10;
         int b = 30;
 
         /*
-         * Las variables localesa sólo se usan en el método que se definen y
+         * Las variables locales sólo se usan en el método que se definen y
          * se debe inicializar, además NO pueden ser ocupadas en otro método.
          * 
          * Las variables que definamos dentro del método main se conocen como

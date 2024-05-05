@@ -50,7 +50,7 @@ public class Concatenacion {
                 + primerNu + segundoNu);
 
         /*
-        Súma de números: CUARTO CASO
+        Suma de números: CUARTO CASO
         Al insertar paréntesis estamos modificando la prioridad de la evaluación
         de la expresión. Se priorizan las operaciones que estén dentro de los 
         paréntesis
@@ -68,10 +68,10 @@ public class Concatenacion {
         System.out.println("Retroceso: \b\b" + libro);
         System.out.println("Diagonal invertida: " + "\\" + libro + "\\");
         
-        System.out.println("Comilla simple: " + "\'" + libro + "\'");
+        System.out.println("Comillas simple: " + "\'" + libro + "\'");
         //Para usar comillas simples no es necesaria la diagonal
-        System.out.println("Comilla simple: " + "'" + libro + "'");
+        System.out.println("Comillas simple: " + "'" + libro + "'");
         //Pero sí es necesaria para las comillas dobles
-        System.out.println("Comilla simple: " + "\"" + libro + "\"");
+        System.out.println("Comillas simple: " + "\"" + libro + "\"");
     }
 }

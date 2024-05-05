@@ -50,7 +50,7 @@ public class TiposPrimitivos01 {
         /*
         De ingresar un valor mayor al permitido no solo va a ser necesaria la 
         sintaxis ya vista, también debemos usar un tipo long "L" al final del 
-        número. Esto de debe a que también hemos exedido el valor de la literal
+        número. Esto de debe a que también hemos excedido el valor de la literal
         y debemos ampliarlo.
         
         Sin embargo, se van a presentar IMPRECISIONES por la conversión:
@@ -59,7 +59,7 @@ public class TiposPrimitivos01 {
         System.out.println("ejemploInt conversión imprecisa: " + ejemploInt);
 
         //long
-        //En este caso tambien superamos el valor de la literal
+        //En este caso también superamos el valor de la literal
         long ejemploLong = 9223372036854775807L;
         System.out.println("ejemploLong: " + ejemploLong);
         System.out.println("Valor mínimo long: " + Long.MIN_VALUE);
@@ -107,7 +107,7 @@ public class TiposPrimitivos01 {
 
         /*
         double
-        Como lo hemos mencionado anteriormente, por defualt las literales de 
+        Como lo hemos mencionado anteriormente, por default las literales de 
         punto flotante se reconocen como tipo double. Por lo tanto no es 
         necesario realizar la conversión y está de más agregar la "D" al final
          */

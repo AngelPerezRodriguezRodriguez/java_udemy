@@ -45,8 +45,8 @@ public class Operadores03 {
         /*
         Revisar el COMENTARIO hecho en "ConversionPrimitivos".
         
-        Si quieremos comparar el conteido de la cadena,entonces hacemos uso
-        del metodo "equals":
+        Si queremos comparar el contenido de la cadena,entonces hacemos uso
+        del método "equals":
          */
         Boolean f = fraseUno.equals(fraseDos);
         System.out.println("La frase uno y la frase dos son iguales: " + f);
@@ -61,13 +61,13 @@ public class Operadores03 {
         System.out.println("a es menor que b: " + h);
 
         /*
-        Tambien podemos usar: 
+        También podemos usar: 
         1. mayor o igual que
         2. menor o igual que
         
         Revisar los EJEMPLOS "if else" en "Operadores01" y "TiposPrimitivos02"
         
-        OERADORES CONDICIONALES  
+        OPERADORES CONDICIONALES  
          */
         //and
         if (a > 0 && a < 15) {

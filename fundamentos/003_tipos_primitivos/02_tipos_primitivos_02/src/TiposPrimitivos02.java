@@ -13,8 +13,8 @@ public class TiposPrimitivos02 {
     public static void main(String[] args) {
         /*
         char
-        Almacena solamente un caracter. Es de 16 bits, la misma cantidad que un
-        "short". Además de alamacenar un caracter también valores decimales
+        Almacena solamente un carácter. Es de 16 bits, la misma cantidad que un
+        "short". Además de almacenar un carácter también valores decimales
          */
         char ejemploChar = 'A';
         System.out.println("ejemploChar: " + ejemploChar);
@@ -24,37 +24,37 @@ public class TiposPrimitivos02 {
         
         Podemos hacerlo a través de su equivalente en código, decimal o
         símbolo, que es el más común. Las dos primeras opciones son en caso de 
-        necesitar caracter especial que no podemos obtener directamente del 
+        necesitar carácter especial que no podemos obtener directamente del 
         teclado
          */
         char codigoUnicode = '\u0021';
-        System.out.println("codigoUnicode: " + codigoUnicode);
+        System.out.println("códigoUnicode: " + codigoUnicode);
         char decimalUnicode = 33;
         System.out.println("decimalUnicode: " + decimalUnicode);
         char simboloUnicode = '!';
-        System.out.println("simboloUnicode: " + simboloUnicode);
+        System.out.println("símboloUnicode: " + simboloUnicode);
 
         //Haciendo uso de la palabra reservada "var"                       
         var codigoUnicodeVar = '\u0021';
-        System.out.println("codigoUnicodeVar: " + codigoUnicode);
+        System.out.println("códigoUnicodeVar: " + codigoUnicode);
         //Realizamos una conversión para imprimir el símbolo que queremos
         var decimalUnicodeVar = (char) 33;
         System.out.println("decimalUnicodeVar: " + decimalUnicode);
         var simboloUnicodeVar = '!';
-        System.out.println("simboloUnicodeVar: " + simboloUnicode);
+        System.out.println("símboloUnicodeVar: " + simboloUnicode);
 
         /*
         Un tipo "char" se puede convertir a un tipo "int". De hacer esta 
         conversión que sucede de forma automática, ya que un tipo "char" ocupa
-        16 bits y un tipo "int" ocupa 32 bits, la impresión nosmostrará su
-        equivalente en código decimal de unicode
+        16 bits y un tipo "int" ocupa 32 bits, la impresión nos mostrará su
+        equivalente en código decimal de Unicode
          */
-        //Su equivalente es "65" en código decimal de unicode
+        //Su equivalente es "65" en código decimal de Unicode
         int mayuscula = 'A';
-        System.out.println("mayuscula: " + mayuscula);
-        //Su equivalente es "97" en código decimal de unicode
+        System.out.println("mayúscula: " + mayuscula);
+        //Su equivalente es "97" en código decimal de Unicode
         int minuscula = 'a';
-        System.out.println("minuscula: " + minuscula);
+        System.out.println("minúscula: " + minuscula);
 
         /*
         boolean

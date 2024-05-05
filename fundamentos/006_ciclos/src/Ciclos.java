@@ -26,10 +26,10 @@ public class Ciclos {
         /*
         EJEMPLO ciclo do while
         
-        A diferencia del cilo while, se va a repetir al menos una vez los que se
-        ecuentre dentro del bloque del ciclo do while. 
+        A diferencia del ciclo while, se va a repetir al menos una vez los que se
+        encuentre dentro del bloque del ciclo do while. 
         
-        Por el contrario, en el ciclo while, si la primera vez que se evalua la 
+        Por el contrario, en el ciclo while, si la primera vez que se evalúa la 
         expresión del ciclo es falsa, entonces nunca se va a ejecutar el bloque 
         del ciclo.
          */
@@ -61,7 +61,7 @@ public class Ciclos {
         (sin etiqueta)
         
         "break" detiene la ejecución del bucle y salta a la primera línea del
-        programa tras el bucle. Podemos encontarla dentro de un bucle o en una
+        programa tras el bucle. Podemos encontrarla dentro de un bucle o en una
         sentencia switch.
         
         "continue" se utiliza únicamente para detener la iteración actual y
@@ -81,10 +81,10 @@ public class Ciclos {
         Una etiqueta nos va a permitir indicar a las palabras "break" y 
         "continue" ir hacia un lugar específico de nuestro programa. 
         
-        Es de utlidad cuando se utlizan ciclos anidados, pudiendo romper el
+        Es de utilidad cuando se utilizan ciclos anidados, pudiendo romper el
         ciclo más externo.
         
-        No es buena práctica utlizar este tipo de programación llamada "go to"
+        No es buena práctica utilizar este tipo de programación llamada "go to"
          */
         inicio:
         for (int contadorCinc = 0; contadorCinc < 3; contadorCinc++) {

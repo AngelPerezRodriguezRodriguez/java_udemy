@@ -11,7 +11,7 @@ public class Aritmetica {
     int a;
     int b;
     /*
-     * Las varibales de clase pueden usarse en cualquier método de la clase y
+     * Las variables de clase pueden usarse en cualquier método de la clase y
      * se inicializan con valores por default a menos que se indique lo contrario
      */
 
