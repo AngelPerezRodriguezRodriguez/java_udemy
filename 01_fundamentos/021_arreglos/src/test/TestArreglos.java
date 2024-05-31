@@ -5,7 +5,7 @@ public class TestArreglos {
     public static void main(String[] args) {
 
         /*
-         * Es más común que los corchetes se coloquen después del nombre de 
+         * Es más común que los corchetes se coloquen después del nombre de
          * la variable, también que el nombre del arreglo sea en plural.
          * 
          * Para instanciar un arreglo usamos la palabra reservada 'new'
@@ -17,12 +17,12 @@ public class TestArreglos {
          * crecer. No podemos agregar elementos de manera dinámica si hemos
          * llegado al límite de los elementos declarados.
          * 
-         * Si queremos utilizar una colección para agregar elementos de forma 
+         * Si queremos utilizar una colección para agregar elementos de forma
          * dinámica, podemos utilizar una lista, un 'set' o un 'map'.
          */
         int edades[] = new int[3];
 
-        // Imprime una dirección de memoria
+        // Imprime una dirección en memoria
         System.out.println("Arreglo edades: " + edades);
 
         edades[0] = 5;
@@ -47,7 +47,7 @@ public class TestArreglos {
             System.out.printf("edades, índice %d: %d %n", i, edades[i]);
         }
 
-        // Podemos definir un arreglo e inicializar sus elementos
+        // Podemos instanciar un arreglo e inicializar sus elementos
         // desde la creación del mismo, se le conoce como sintaxis resumida
         String frutas[] = { "naranja", "sandía", "limón" };
 
