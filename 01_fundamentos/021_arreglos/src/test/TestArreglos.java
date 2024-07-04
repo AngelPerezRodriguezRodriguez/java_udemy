@@ -8,8 +8,8 @@ public class TestArreglos {
          * Es más común que los corchetes se coloquen después del nombre de
          * la variable, también que el nombre del arreglo sea en plural.
          * 
-         * Para instanciar un arreglo usamos la palabra reservada 'new'
-         * ya que son de tipo 'Object', es decir, heredan de dicha clase.
+         * Para instanciar la clase 'Arrays' usamos la palabra reservada
+         * 'new' pues es de tipo 'Object', es decir, heredan de dicha clase.
          * Después indicamos el tipo de dato a utilizar y entre corchetes
          * la cantidad de elementos del arreglo.
          * 
@@ -18,7 +18,7 @@ public class TestArreglos {
          * llegado al límite de los elementos declarados.
          * 
          * Si queremos utilizar una colección para agregar elementos de forma
-         * dinámica, podemos utilizar una lista, un 'set' o un 'map'.
+         * dinámica, podemos utilizar interfaces como 'List', 'Set' o 'Map'.
          */
         int edades[] = new int[3];
 
@@ -47,7 +47,7 @@ public class TestArreglos {
             System.out.printf("edades, índice %d: %d %n", i, edades[i]);
         }
 
-        // Podemos instanciar un arreglo e inicializar sus elementos
+        // Podemos instanciar la clase 'Arrays' e inicializar sus elementos
         // desde la creación del mismo, se le conoce como sintaxis resumida
         String frutas[] = { "naranja", "sandía", "limón" };
 

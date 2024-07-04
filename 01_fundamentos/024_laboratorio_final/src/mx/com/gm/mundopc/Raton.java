@@ -2,10 +2,12 @@ package mx.com.gm.mundopc;
 
 public class Raton extends DispositivoEntrada {
 
+    // ATRIBUTOS
     private final int idRaton;
 
     private static int contadorRatones;
 
+    // CONSTRUCTOR
     public Raton(String tipoEntrada, String marca) {
         super(tipoEntrada, marca);
 

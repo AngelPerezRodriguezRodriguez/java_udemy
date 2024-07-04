@@ -2,6 +2,7 @@ package mx.com.gm.mundopc;
 
 public class Orden {
 
+    // ATRIBUTOS
     private final int idOrden;
 
     private static int contadorOrdenes;
@@ -12,12 +13,14 @@ public class Orden {
 
     private static final int MAX_COMPUTADORAS = 10;
 
+    // CONSTRUCTOR
     public Orden() {
         this.idOrden = ++Orden.contadorOrdenes;
 
         this.computadoras = new Computadora[Orden.MAX_COMPUTADORAS];
     }
 
+    // MÉTODOS
     public void agregarComputadora(Computadora computadora) {
 
         if (this.contadorComputadoras >= Orden.MAX_COMPUTADORAS) {

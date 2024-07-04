@@ -2,15 +2,18 @@ package mx.com.gm.mundopc;
 
 public class DispositivoEntrada {
 
+    // ATRIBUTOS
     private String tipoEntrada;
 
     private String marca;
 
+    // CONSTRUCTOR
     public DispositivoEntrada(String tipoEntrada, String marca) {
         this.tipoEntrada = tipoEntrada;
         this.marca = marca;
     }
 
+    // MÉTODOS DE ACCESO
     public String getTipoEntrada() {
         return tipoEntrada;
     }

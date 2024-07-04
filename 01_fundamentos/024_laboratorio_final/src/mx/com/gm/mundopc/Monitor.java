@@ -2,6 +2,7 @@ package mx.com.gm.mundopc;
 
 public class Monitor {
 
+    // ATRIBUTOS
     private final int idMonitor;
 
     private static int contadorMonitores;
@@ -10,6 +11,7 @@ public class Monitor {
 
     private int tamanio;
 
+    // CONSTRUCTORES
     private Monitor() {
         this.idMonitor = ++Monitor.contadorMonitores;
     }
@@ -21,6 +23,7 @@ public class Monitor {
         this.tamanio = tamanio;
     }
 
+    // MÉTODOS DE ACCESO
     public int getIdMonitor() {
         return idMonitor;
     }

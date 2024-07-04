@@ -21,7 +21,5 @@ public class TestVentas {
         orden02.agregarProducto(producto02);
         orden02.agregarProducto(producto03);
         orden02.mostrarOrden();
-
-        Producto producto04 = new Producto("Bufanda", 200);
     }
 }

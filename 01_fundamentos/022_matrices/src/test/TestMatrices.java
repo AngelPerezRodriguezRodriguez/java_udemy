@@ -4,7 +4,7 @@ public class TestMatrices {
 
     public static void main(String[] args) {
 
-        // Al instanciar la matriz definimos
+        // Al instanciar la clase 'Arrays' definimos
         // el número de renglones y de columnas
         int edades[][] = new int[3][2];
 
@@ -33,11 +33,8 @@ public class TestMatrices {
             }
         }
 
-        /*
-         * Podemos instanciar una matriz e inicializar sus elementos
-         * desde la creación de la misma, se le conoce como sintaxis resumida.
-         * Las matrices pueden no ser cuadradas.
-         */
+        // Podemos instanciar la clase 'Arrays' e inicializar sus elementos
+        // desde la creación del mismo, se le conoce como sintaxis resumida
         String frutas[][] = { { "naranja", "limón" }, { "fresa", "zarzamora" }, { "melón", "sandía", "mango" } };
 
         for (int i = 0; i < frutas.length; i++) {

@@ -5,9 +5,9 @@ public class Orden {
     // ATRIBUTOS
     private int idOrden;
 
-    private Producto productos[];
-
     private static int contadorOrdenes;
+
+    private Producto productos[];
 
     // Atributo no definido en el esquema UML
     // pero necesario para futuras validaciones
@@ -15,13 +15,14 @@ public class Orden {
 
     private static final int MAX_PRODUCTOS = 10;
 
+    // CONSTRUCTOR
     public Orden() {
-
         this.idOrden = ++Orden.contadorOrdenes;
 
         this.productos = new Producto[Orden.MAX_PRODUCTOS];
     }
 
+    // MÉTODOS
     public void agregarProducto(Producto producto) {
 
         // Usamos la variable 'contadorProductos'
@@ -34,7 +35,7 @@ public class Orden {
 
         // Uso del post-incremento
         // para ahorrar una línea de código
-        productos[this.contadorProductos++] = producto;
+        this.productos[this.contadorProductos++] = producto;
     }
 
     public double calcularTotal() {

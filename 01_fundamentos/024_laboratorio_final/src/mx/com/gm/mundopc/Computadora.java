@@ -2,6 +2,7 @@ package mx.com.gm.mundopc;
 
 public class Computadora {
 
+    // ATRIBUTOS
     private final int idComputadora;
 
     private static int contadorComputadoras;
@@ -14,6 +15,7 @@ public class Computadora {
 
     private Raton raton;
 
+    // CONSTRUCTORES
     public Computadora() {
         this.idComputadora = ++Computadora.contadorComputadoras;
     }
@@ -22,12 +24,12 @@ public class Computadora {
         this();
 
         this.nombre = nombre;
-
         this.monitor = monitor;
         this.teclado = teclado;
         this.raton = raton;
     }
 
+    // MÉTODOS DE ACCESO
     public int getIdComputadora() {
         return idComputadora;
     }
